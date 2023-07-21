@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*********************** HOME SECTION***********************/
+nav {
+  background-color: rgb(241, 241, 241);
+}
+.nav-link {
+  margin-right: 10px;
+}
+@media (max-width: 576px) {
+  .nav-link {
+    text-align: center;
+  }
+  .nav-link:hover {
+    border: 1px solid orangered;
+    border-radius: 50px;
+  }
+  header .form-inline {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+  }
+}
+header .form-inline button:nth-child(1) {
+  background-color: orangered;
+  border: none;
+  color: black;
+}
+header .form-inline button:nth-child(1):hover {
+  background-color: rgb(125, 63, 42);
+}
+header .form-inline button:nth-child(2) {
+  border-color: rgb(255, 68, 6);
+  color: black;
+}
+header .form-inline button:nth-child(2):hover {
+  background-color: rgb(255, 68, 6);
+}
+#home .jumbotron {
+  background-image: url("./img/Car_Website.png");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  margin-top: 60px;
+}
+#home .jumbotron .apps img {
+  width: 130px;
+}
+#home .jumbotron h1 {
+  margin-top: 90px;
+}
+#home .jumbotron form {
+  margin-top: 170px;
+  width: fit-content;
+}
+#home .jumbotron form .btn {
+  background-color: orangered;
+}
+/*********************** RIDE SECTION ***********************/
+#ride {
+  margin-top: 100px;
+}
+#ride .container {
+  margin-top: 50px;
+}
+#ride .container i {
+  font-size: 40px;
+  background: linear-gradient(150deg, rgb(235, 103, 8), rgb(255, 255, 255));
+  border-radius: 5px;
+  color: white;
+}
+#ride .container .col-md-4:hover {
+  background-color: rgb(248, 244, 244);
+  border-radius: 5px;
+}
+/*********************** SERVICES SECTION ***********************/
+#services {
+  background-color: rgba(197, 197, 197, 0.334);
+  margin-top: 120px;
+  padding-top: 90px;
+}
+#services .card mark {
+  background-color: rgba(255, 68, 0, 0.252);
+  border-radius: 7px;
+}
+#services .card .card-text span {
+  color: orangered;
+}
+
+#services .card button {
+  background-color: rgb(124, 53, 27);
+}
+
+/***********************  ABOUT SECTION ***********************/
+#about {
+  margin-top: 120px;
+}
+#about .container button {
+  background-color: rgb(124, 53, 27);
+}
+
+/*********************** REVIEWS SECTION ***********************/
+
+#reviews {
+  margin-top: 150px;
+}
+#reviews .carousel-indicators li {
+  border-radius: 60px;
+  width: 20px;
+  background-color: rgb(0, 0, 0);
+}
+#reviews a span {
+  background-color: rgb(255, 92, 5);
+  padding-top: 50px;
+  border-radius: 50px;
+}
+/*********************** FOOTER SECTION ***********************/
+#subscribe {
+  margin-top: 150px;
+  background: linear-gradient(
+    95deg,
+    rgba(170, 94, 67, 0.225),
+    rgb(255, 192, 119)
+  );
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#subscribe .container img {
+  width: 600px;
+  margin-top: -40px;
+}
+#subscribe .form-group i {
+  font-size: 24px;
+  color: white;
+  background-color: rgb(124, 53, 27);
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+#subscribe .form-group #email {
+  width: 0px;
+  transition: 0.6;
+}
+#subscribe .form-group {
+  padding-top: 20px;
+}
+#subscribe .form-group button {
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  margin-left: -12px;
+  border: none;
+  background-color: rgb(124, 53, 27);
+}
+#subscribe .form-group:hover > #email,
+#subscribe .form-group #email:focus {
+  margin-left: 152px;
+  width: 200px;
+  margin-left: -4px;
+  margin-right: 9px;
+  padding-left: 7px;
+  padding-top: 8px;
+  padding-bottom: 2px;
+  border: none;
+}

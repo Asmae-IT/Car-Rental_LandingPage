@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Car Rental</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" type="image/x-icon" href="/img/jeep.png" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Unicons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+        <a class="navbar-brand" href="#"
+          ><img src="img/jeep.png" alt="home-img" width="50px"
+        /></a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="uil uil-bars"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="collapsibleNavId"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ride">Ride</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+          </ul>
+          <div class="form-inline">
+            <button class="btn btn-outline-primary mr-1" type="submit">
+              Sign Up
+            </button>
+            <button class="btn btn-outline-success" type="submit">
+              Sign In
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!------------------------------ HOME SECTION ----------------------------------------------->
+      <section id="home">
+        <div class="jumbotron">
+          <h1 class="display-4"><span>Looking</span> to rent a car</h1>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur elit. Odit repellat sit
+            repudiandae quaera.
+          </p>
+          <div class="apps">
+            <img
+              src="/img/512x512.png"
+              class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+              alt=""
+            />
+            <img
+              src="/img/ios.png"
+              class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+              alt=""
+            />
+          </div>
+          <form>
+            <div class="form-row">
+              <div class="col">
+                <label for="location"><strong>Location</strong></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="location"
+                  name="location"
+                  placeholder="Search Places"
+                />
+              </div>
+              <div class="col">
+                <label for="pickDate"><strong>Pick-Up Date</strong></label>
+                <input type="date" class="form-control" name="pickDate" />
+              </div>
+              <div class="col">
+                <label for="returnDate"><strong>Return Date</strong></label>
+                <input type="date" class="form-control" name="returnDate" />
+              </div>
+              <div class="col">
+                <label for="submit"></label>
+                <button type="submit" class="btn text-white form-control">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!------------------------------ RIDE SECTION ----------------------------------------------->
+      <section class="text-center" id="ride">
+        <h2>HOW ITS WORK</h2>
+        <p class="lead">Rent With 3 Easy Steps</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 pt-3">
+              <i class="uil uil-location-pin-alt"></i>
+              <h5 class="pt-4">Choose A Location</h5>
+              <p class="pt-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Commodi itaque voluptate rerum neque molestiae culpa. Optio sed.
+              </p>
+            </div>
+            <div class="col-md-4 pt-3">
+              <i class="uil uil-calendar-alt"></i>
+              <h5 class="pt-4">Pick Up Date</h5>
+              <p class="pt-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Commodi itaque voluptate rerum neque molestiae culpa. Optio sed.
+              </p>
+            </div>
+            <div class="col-md-4 pt-3">
+              <i class="uil uil-calendar-alt"></i>
+              <h5 class="pt-4">Book A Car</h5>
+              <p class="pt-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Commodi itaque voluptate rerum neque molestiae culpa. Optio sed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------ SERVICES SECTION ----------------------------------------------->
+      <section class="services text-center" id="services">
+        <h2>BEST SERVICES</h2>
+        <p class="lead">
+          Explore Out Top Deals<br />
+          From Top Rated Dealers
+        </p>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-4 pt-4">
+              <div class="card" id="card1">
+                <img class="card-img-top" src="/img/car1.jpg" alt="car1" />
+                <div class="card-body text-left">
+                  <mark>2017</mark>
+                  <h5 class="card-title pt-2">2018 Honda Civic</h5>
+                  <p class="card-text">
+                    <span class="font-weight-bold">$58500 | $358</span> /month
+                  </p>
+                  <button type="button" class="form-control text-white">
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pt-4">
+              <div class="card" id="card2">
+                <img class="card-img-top" src="/img/car2.jpg" alt="car2" />
+                <div class="card-body text-left">
+                  <mark>2017</mark>
+                  <h5 class="card-title pt-2">2018 Honda Civic</h5>
+                  <p class="card-text">
+                    <span class="font-weight-bold">$58500 | $358</span> /month
+                  </p>
+                  <button type="button" class="form-control text-white">
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pt-4">
+              <div class="card" id="card3">
+                <img class="card-img-top" src="/img/car3.jpg" alt="car3" />
+                <div class="card-body text-left">
+                  <mark>2017</mark>
+                  <h5 class="card-title pt-2">2018 Honda Civic</h5>
+                  <p class="card-text">
+                    <span class="font-weight-bold">$58500 | $358</span> /month
+                  </p>
+                  <button type="button" class="form-control text-white">
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5 pb-5">
+            <div class="col-md-4 pt-4">
+              <div class="card" id="card4">
+                <img class="card-img-top" src="/img/car4.jpg" alt="car4" />
+                <div class="card-body text-left">
+                  <mark>2017</mark>
+                  <h5 class="card-title pt-2">2018 Honda Civic</h5>
+                  <p class="card-text">
+                    <span class="font-weight-bold">$58500 | $358</span> /month
+                  </p>
+                  <button type="button" class="form-control text-white">
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pt-4">
+              <div class="card" id="card5">
+                <img class="card-img-top" src="/img/car5.jpg" alt="car5" />
+                <div class="card-body text-left">
+                  <mark>2017</mark>
+                  <h5 class="card-title pt-2">2018 Honda Civic</h5>
+                  <p class="card-text">
+                    <span class="font-weight-bold">$58500 | $358</span> /month
+                  </p>
+                  <button type="button" class="form-control text-white">
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pt-4">
+              <div class="card" id="card6">
+                <img class="card-img-top" src="/img/car6.jpg" alt="car6" />
+                <div class="card-body text-left">
+                  <mark>2017</mark>
+                  <h5 class="card-title pt-2">2018 Honda Civic</h5>
+                  <p class="card-text">
+                    <span class="font-weight-bold">$58500 | $358</span> /month
+                  </p>
+                  <button type="button" class="form-control text-white">
+                    Rent Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------ ABOUT SECTION ----------------------------------------------->
+      <section class="about text-center" id="about">
+        <h2>ABOUT US</h2>
+        <p class="lead">Best Customer Experience</p>
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-md-6">
+              <img src="/img/about.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-6" id="left-side">
+              <p class="text-left">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Perferendis alias deleniti, consequuntur dolores itaque
+                repudiandae iste sint saepe id natus molestiae corporis
+                cupiditate doloremque, nulla, eius deserunt eveniet incidunt
+                numquam. Lorem ipsum dolor sit amet consectetur, adipisicing
+                elit. Perferendis alias deleniti, consequuntur dolores itaque
+                repudiandae iste sint saepe.
+              </p>
+              <button type="button" class="form-control text-white">
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------ REVIEWS SECTION ----------------------------------------------->
+      <section class="reviews text-center" id="reviews">
+        <h2>REVIEWS</h2>
+        <p class="lead">Whats Our Customer Say</p>
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselId" data-slide-to="1"></li>
+            <li data-target="#carouselId" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col pt-3">
+                    <img
+                      src="/img/rev1.jpg"
+                      alt="First slide"
+                      width="250"
+                      height="250"
+                    />
+                    <div class="carousel-caption">
+                      <h5>Jason Statham</h5>
+                      <p class="small">
+                        Lorem ipsum dolor sit amet consectetur<br />
+                        adipisicing elit.Impedit quibusdam velit <br />vero
+                        nesciunt necessitatibus laborum <br />dignissimos eaque
+                        adipisci blanditiis.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col pt-3">
+                    <img
+                      src="/img/rev2.jpg"
+                      alt="Second slide"
+                      width="250"
+                      height="250"
+                    />
+                    <div class="carousel-caption">
+                      <h5>Jason Statham</h5>
+                      <p class="small">
+                        Lorem ipsum dolor sit amet consectetur<br />
+                        adipisicing elit.Impedit quibusdam velit <br />vero
+                        nesciunt necessitatibus laborum <br />dignissimos eaque
+                        adipisci blanditiis.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col pt-3">
+                    <img
+                      src="/img/rev3.jpg"
+                      alt="Third slide"
+                      width="250"
+                      height="250"
+                    />
+                    <div class="carousel-caption">
+                      <h5>Jason Statham</h5>
+                      <p class="small">
+                        Lorem ipsum dolor sit amet consectetur<br />
+                        adipisicing elit.Impedit quibusdam velit <br />vero
+                        nesciunt necessitatibus laborum <br />dignissimos eaque
+                        adipisci blanditiis.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col pt-3">
+                    <img
+                      src="/img/rev1.jpg"
+                      alt="First slide"
+                      width="250"
+                      height="250"
+                    />
+                    <div class="carousel-caption">
+                      <h5>Jason Statham</h5>
+                      <p class="small">
+                        Lorem ipsum dolor sit amet consectetur<br />
+                        adipisicing elit.Impedit quibusdam velit <br />vero
+                        nesciunt necessitatibus laborum <br />dignissimos eaque
+                        adipisci blanditiis.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col pt-3">
+                    <img
+                      src="/img/rev2.jpg"
+                      alt="Second slide"
+                      width="250"
+                      height="250"
+                    />
+                    <div class="carousel-caption">
+                      <h5>Jason Statham</h5>
+                      <p class="small">
+                        Lorem ipsum dolor sit amet consectetur<br />
+                        adipisicing elit.Impedit quibusdam velit <br />vero
+                        nesciunt necessitatibus laborum <br />dignissimos eaque
+                        adipisci blanditiis.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col pt-3">
+                    <img
+                      src="/img/rev3.jpg"
+                      alt="Third slide"
+                      width="250"
+                      height="250"
+                    />
+                    <div class="carousel-caption">
+                      <h5>Jason Statham</h5>
+                      <p class="small">
+                        Lorem ipsum dolor sit amet consectetur<br />
+                        adipisicing elit.Impedit quibusdam velit <br />vero
+                        nesciunt necessitatibus laborum <br />dignissimos eaque
+                        adipisci blanditiis.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col pt-3">
+                    <img
+                      src="/img/rev1.jpg"
+                      alt="First slide"
+                      width="250"
+                      height="250"
+                    />
+                    <div class="carousel-caption">
+                      <h5>Jason Statham</h5>
+                      <p class="small">
+                        Lorem ipsum dolor sit amet consectetur<br />
+                        adipisicing elit.Impedit quibusdam velit <br />vero
+                        nesciunt necessitatibus laborum <br />dignissimos eaque
+                        adipisci blanditiis.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col pt-3">
+                    <img
+                      src="/img/rev2.jpg"
+                      alt="Second slide"
+                      width="250"
+                      height="250"
+                    />
+                    <div class="carousel-caption">
+                      <h5>Jason Statham</h5>
+                      <p class="small">
+                        Lorem ipsum dolor sit amet consectetur<br />
+                        adipisicing elit.Impedit quibusdam velit <br />vero
+                        nesciunt necessitatibus laborum <br />dignissimos eaque
+                        adipisci blanditiis.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col pt-3">
+                    <img
+                      src="/img/rev3.jpg"
+                      alt="Third slide"
+                      width="250"
+                      height="250"
+                    />
+                    <div class="carousel-caption">
+                      <h5>Jason Statham</h5>
+                      <p class="small">
+                        Lorem ipsum dolor sit amet consectetur<br />
+                        adipisicing elit.Impedit quibusdam velit <br />vero
+                        nesciunt necessitatibus laborum <br />dignissimos eaque
+                        adipisci blanditiis.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselId"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselId"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container-fluid text-center" id="subscribe">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                src="/img/Pre-Onboarding-Survey-Questions.png"
+                class="img-fluid"
+                alt="newsletter-img"
+              />
+            </div>
+            <div class="col-md-6 pt-5">
+              <h3>Subscribe To Our Newsletter !</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur<br />
+                adipisicing elit.Impedit quibusdam velit
+              </p>
+              <div class="form-group">
+                <i class="uil uil-envelope pl-1 pr-1"></i>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter Your Email"
+                />
+                <button type="button" class="text-white">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center pt-3 pb-3">
+        <i class="uil uil-copyright pr-2"></i>All Right Reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal().reveal(".jumbotron h1", { delay: 400, origin: "left" });
+      ScrollReveal().reveal(".jumbotron p", { delay: 500, origin: "left" });
+      ScrollReveal().reveal(".jumbotron .apps", { delay: 500, origin: "left" });
+      ScrollReveal().reveal(".jumbotron form", { delay: 600, origin: "right" });
+      ScrollReveal().reveal("#ride .container", {
+        delay: 200,
+        origin: "bottom",
+      });
+      ScrollReveal().reveal("#services #card1", {
+        delay: 300,
+        origin: "left",
+      });
+      ScrollReveal().reveal("#services #card2", {
+        delay: 400,
+        origin: "left",
+      });
+      ScrollReveal().reveal("#services #card3", {
+        delay: 500,
+        origin: "left",
+      });
+      ScrollReveal().reveal("#services #card4", {
+        delay: 600,
+        origin: "right",
+      });
+      ScrollReveal().reveal("#services #card5", {
+        delay: 700,
+        origin: "right",
+      });
+      ScrollReveal().reveal("#services #card6", {
+        delay: 800,
+        origin: "right",
+      });
+      ScrollReveal().reveal("#about img", {
+        delay: 200,
+        origin: "left",
+      });
+      ScrollReveal().reveal("#about #left-side", {
+        delay: 100,
+        origin: "right",
+      });
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
