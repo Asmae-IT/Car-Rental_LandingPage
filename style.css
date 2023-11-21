@@ -112,6 +112,12 @@ header .form-inline button:nth-child(2):hover {
   width: 20px;
   background-color: rgb(0, 0, 0);
 }
+#reviews .carousel-item img {
+  opacity: 0.5;
+}
+#reviews .carousel-item .carousel-caption {
+  color: rgb(3, 3, 3);
+}
 #reviews a span {
   background-color: rgb(255, 92, 5);
   padding-top: 50px;
